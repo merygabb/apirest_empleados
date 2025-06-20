@@ -1,0 +1,48 @@
+# Byte-compiled / cache files
+_pycache_/
+*.py[cod]
+*.pyc
+*.pyo
+
+# Poetry virtual environments (aunque no estás usando venv local, por si acaso)
+.venv/
+.env/
+
+# Django stuff:
+*.sqlite3
+db.sqlite3
+media/
+staticfiles/
+
+# Docker
+*.log
+*.pid
+*.seed
+*.bak
+*.swp
+*.tar
+*.gz
+*.tgz
+*.zip
+
+# VS Code
+.vscode/
+
+# Mac/Linux/Windows system files
+.DS_Store
+Thumbs.db
+
+# Pytest / coverage / test logs
+htmlcov/
+.coverage
+.tox/
+.nox/
+.cache/
+*.cover
+*.log
+
+# Docker volumes
+postgres_data/
+
+# Postman
+*.postman_collection.json
